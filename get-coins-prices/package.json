@@ -2,8 +2,11 @@
   "name": "get-coins-prices",
   "version": "1.0.0",
   "description": "",
+  "type":"module",
   "main": "index.js",
-  "bin": "./index.js",
+  "bin": {
+    "get-coins-prices": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bybit-api": "^3.8.1",
+    "bybit-api": "^3.8.2",
     "minimist": "^1.2.8"
   },
   "devDependencies": {
