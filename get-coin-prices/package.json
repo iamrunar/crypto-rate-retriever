@@ -1,11 +1,11 @@
 {
-  "name": "get-coins-prices",
+  "name": "get-coin-prices",
   "version": "1.0.0",
   "description": "",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "bin": {
-    "get-coins-prices": "index.js"
+    "get-coin-prices": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
