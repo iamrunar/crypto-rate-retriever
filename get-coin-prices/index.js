@@ -54,7 +54,6 @@ async function checkFileArgumentsOrDie(inputSymbolsFile, outputFilePath){
         throw Error('The output arg should be a file: '+outputFilePath)
       }
       await access(outputFilePath, W_OK);
-      console.log('check write ok',outputFilePath)
     }
     else{
       const dirname = path.dirname(outputFilePath);
