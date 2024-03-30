@@ -1,11 +1,11 @@
 {
-  "name": "get-coin-prices",
+  "name": "crypto-rate-retriever",
   "version": "1.0.0",
   "description": "",
   "type": "module",
   "main": "index.js",
   "bin": {
-    "get-coin-prices": "index.js"
+    "crypto-rate-retriever": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
